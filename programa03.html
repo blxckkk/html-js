@@ -8,7 +8,6 @@
 </head>
 <body>
     <script>
-
          function pulaLinha() {
             document.write('<br>')
         }
@@ -17,7 +16,27 @@
             document.write(texto)
             pulaLinha()
         }
-        
+
+    const medalhasOuro = prompt('Quantas medalhas de ouro você ganhou')
+    const medalhasPrata = prompt('Quantas medalhas de prata você ganhou')
+    const medalhasBronze = prompt('Quantas medalhas de bronze você ganhou')
+    const provasNadadas = prompt('Quantas provas você nadou')
+
+    let pontos = (medalhasOuro * 5) + (medalhasPrata * 3) + (medalhasBronze * 2) + parseInt(provasNadadas)
+
+mostrar(` O total de pontos que você fez nessa temporada foi de: ${pontos}`)
+
+if(pontos > 30){
+    mostrar('Você conquistou o troféu de 1º Lugar!!')
+}  else if(pontos == 30){
+    mostrar('Você conquistou o troféu de 2º Lugar!!')
+} else if(pontos < 30 && pontos > 25) {
+    mostrar('você conquistou o troféu de 3º Lugar!!')
+} else {
+    mostrar('Sua participação no nosso campeonato foi muito importante!!')
+}
+ 
+
     </script>
 </body>
 </html>
