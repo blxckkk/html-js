@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Fjalla+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte-titulo: "Arima", system-ui;
+    --fonte-texto: "Fjalla One", sans-serif;
+    --cor-texto: #ffffffff;
+    --cor-cartao: #00171fff;
+    --cor-destaque: #003459ff;
+    --cor-fundo: #007ea7ff;
+    --cor-cabecalho: #00a8e8ff;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--cor-texto);
+}
+header{
+    background-color: var(--cor-cabecalho);
+    text-align: center;
+    padding: 2em;
+    color: var(--cor-texto);
+}
+header h1{
+    font-family: var(--fonte-titulo);
+    font-size: 2.5em;
+}
+.projetos{
+    padding: 2em;
+    display: flex;
+}
