@@ -79,3 +79,7 @@ footer a{
     color: var(--cor-texto);
     border-radius: 15px;
 }
+
+.ultimo-cartao{
+    margin-bottom: 5em;
+}
