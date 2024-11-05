@@ -54,6 +54,10 @@ header h1{
     color: var(--cor-destaque)
 }
 
+.ultimo-cartao{
+    margin-bottom: 5em;
+}
+
 footer a{
     text-decoration: none;
     color: var(--cor-destaque);
@@ -80,6 +84,3 @@ footer a{
     border-radius: 15px;
 }
 
-.ultimo-cartao{
-    margin-bottom: 5em;
-}
